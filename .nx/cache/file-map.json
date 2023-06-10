@@ -1,0 +1,200 @@
+{
+  "version": "6.0",
+  "nxVersion": "16.3.2",
+  "deps": {
+    "@nxrs/cargo": "0.3.3",
+    "next": "13.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tslib": "^2.3.0",
+    "@nx/cypress": "16.3.2",
+    "@nx/eslint-plugin": "16.3.2",
+    "@nx/jest": "16.3.2",
+    "@nx/js": "16.3.2",
+    "@nx/linter": "16.3.2",
+    "@nx/next": "^16.3.2",
+    "@nx/react": "16.3.2",
+    "@testing-library/react": "14.0.0",
+    "@types/jest": "^29.4.0",
+    "@types/node": "18.14.2",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "babel-jest": "^29.4.1",
+    "cypress": "^12.11.0",
+    "eslint": "~8.15.0",
+    "eslint-config-next": "13.4.1",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-cypress": "^2.10.3",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "^29.4.1",
+    "prettier": "^2.6.2",
+    "ts-jest": "^29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "~5.0.2",
+    "nx": "16.3.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nxrs/cargo",
+      "version": "0.3.3"
+    }
+  ],
+  "projectFileMap": {
+    "frontend": [
+      {
+        "file": "frontend/.eslintrc.json",
+        "hash": "17391658802372948932"
+      },
+      {
+        "file": "frontend/app/api/hello/route.ts",
+        "hash": "495073956729887886"
+      },
+      {
+        "file": "frontend/app/global.css",
+        "hash": "10943017421299445298"
+      },
+      {
+        "file": "frontend/app/layout.tsx",
+        "hash": "13415515203133792280"
+      },
+      {
+        "file": "frontend/app/page.module.css",
+        "hash": "4786619528779355986"
+      },
+      {
+        "file": "frontend/app/page.tsx",
+        "hash": "7134158654194763023"
+      },
+      {
+        "file": "frontend/index.d.ts",
+        "hash": "5498222895072842432"
+      },
+      {
+        "file": "frontend/jest.config.ts",
+        "hash": "79202778668521231"
+      },
+      {
+        "file": "frontend/next-env.d.ts",
+        "hash": "5909181270615354023"
+      },
+      {
+        "file": "frontend/next.config.js",
+        "hash": "17252635002163063865",
+        "deps": [
+          "npm:@nx/next"
+        ]
+      },
+      {
+        "file": "frontend/project.json",
+        "hash": "8109178749890907790"
+      },
+      {
+        "file": "frontend/public/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "frontend/public/favicon.ico",
+        "hash": "9303420814833116677"
+      },
+      {
+        "file": "frontend/tsconfig.json",
+        "hash": "8984742757999796729"
+      },
+      {
+        "file": "frontend/tsconfig.spec.json",
+        "hash": "8636949703417217507"
+      }
+    ],
+    "frontend-e2e": [
+      {
+        "file": "frontend-e2e/.eslintrc.json",
+        "hash": "12199001048877152138"
+      },
+      {
+        "file": "frontend-e2e/cypress.config.ts",
+        "hash": "15414076024138857470",
+        "deps": [
+          "npm:cypress",
+          "npm:@nx/cypress"
+        ]
+      },
+      {
+        "file": "frontend-e2e/project.json",
+        "hash": "5433273159135714935"
+      },
+      {
+        "file": "frontend-e2e/src/e2e/app.cy.ts",
+        "hash": "10814401713449552516"
+      },
+      {
+        "file": "frontend-e2e/src/fixtures/example.json",
+        "hash": "11614668686582597233"
+      },
+      {
+        "file": "frontend-e2e/src/support/app.po.ts",
+        "hash": "11157016311132186162"
+      },
+      {
+        "file": "frontend-e2e/src/support/commands.ts",
+        "hash": "7314691991044890572"
+      },
+      {
+        "file": "frontend-e2e/src/support/e2e.ts",
+        "hash": "3666078656922506009"
+      },
+      {
+        "file": "frontend-e2e/tsconfig.json",
+        "hash": "3213783022078611433"
+      }
+    ],
+    "services_lambda_generate_story": [
+      {
+        "file": "services/lambda-generate-story/Cargo.toml",
+        "hash": "9889681124133390446"
+      },
+      {
+        "file": "services/lambda-generate-story/project.json",
+        "hash": "2480741932677205273"
+      },
+      {
+        "file": "services/lambda-generate-story/src/lib.rs",
+        "hash": "14524749667673775320"
+      }
+    ],
+    "services_lambda_generate_story_audio": [
+      {
+        "file": "services/lambda-generate-story-audio/Cargo.toml",
+        "hash": "1884714211202200735"
+      },
+      {
+        "file": "services/lambda-generate-story-audio/project.json",
+        "hash": "17632197599463185303"
+      },
+      {
+        "file": "services/lambda-generate-story-audio/src/lib.rs",
+        "hash": "15481430900056569748"
+      }
+    ],
+    "services_lambda_generate_story_images": [
+      {
+        "file": "services/lambda-generate-story-images/Cargo.toml",
+        "hash": "12821998648794188975"
+      },
+      {
+        "file": "services/lambda-generate-story-images/project.json",
+        "hash": "14281849169058326856"
+      },
+      {
+        "file": "services/lambda-generate-story-images/src/lib.rs",
+        "hash": "1610049762006018138"
+      }
+    ]
+  }
+}

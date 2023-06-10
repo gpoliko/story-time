@@ -1,15 +1,5 @@
 {
-  "tasksRunnerOptions": {
-    "default": {
-      "runner": "nx/tasks-runners/default",
-      "options": {
-        "cacheableOperations": []
-      }
-    }
-  },
-  "installation": {
-    "version": "16.3.2"
-  },
+  "plugins": ["@nxrs/cargo"],
   "targetDefaults": {
     "test": {
       "inputs": ["default", "^default", "{workspaceRoot}/jest.preset.js"]
@@ -20,6 +10,14 @@
         "{workspaceRoot}/.eslintrc.json",
         "{workspaceRoot}/.eslintignore"
       ]
+    }
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": []
+      }
     }
   },
   "generators": {
@@ -34,5 +32,8 @@
         "linter": "eslint"
       }
     }
+  },
+  "installation": {
+    "version": "16.3.2"
   }
 }

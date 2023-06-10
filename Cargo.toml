@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "./services/lambda-generate-story-images",
+    "./services/lambda-generate-story-audio",
+    "./services/lambda-generate-story"
+]
